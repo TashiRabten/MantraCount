@@ -1,0 +1,15 @@
+# MantraCount Program
+
+## Overview
+This program counts instances of mantra submissions through WhatsApp for Associação Buddha-Dharma associates in Brazil.
+
+## Requirements
+- Java (version X.X or higher)
+- Apache Commons Lang library (included in the `lib` folder)
+
+## Setup and test
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TashiRabten/MantraCount.git
+2. Download example.txt
+    Test with date 10/1/24, and the mantra name 'Om Mani Padme Hum'
