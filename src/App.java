@@ -126,7 +126,7 @@ public class App {
             }
         }
 
-        // Close the scanner
+        
         scanner.close();
         System.out.println("Program exited.");
     }
