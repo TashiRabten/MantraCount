@@ -1,19 +1,24 @@
-"# MantraCount" 
-## Getting Started
+# MantraCount
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project is designed to count instances of mantra submissions through WhatsApp for the Associação Buddha-Dharma associates in Brazil. The application processes export text files from WhatsApp line by line and looks for strings formatted as: Fiz <number> mantras de <mantra name>, which translates to I did <number> mantras of <mantra name>.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+## Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Reads WhatsApp export text and counts:
+  - Total number of mantras submitted.
+  - Instances of the word "Fiz".
+  - Instances of the word "mantras".
+  - Specific mantra names.
+- Displays discrepancies with counts, allowing users to correct any errors in the original text and run the program again for an accurate count.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Requirements
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Java (version X or higher)
+- Any standard text editor or IDE for Java development (e.g., IntelliJ, Eclipse).
 
-## Dependency Management
+## Installation
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TashiRabten/MantraCount.git
