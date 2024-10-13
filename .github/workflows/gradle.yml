@@ -22,4 +22,5 @@ jobs:
       
 
     - name: Build with Gradle
+      working-directory: ./
       run: .\gradlew.bat build
