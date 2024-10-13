@@ -10,10 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest] # Run on both Ubuntu and Windows
+    runs-on: windows-latest
 
     steps:
     - name: Checkout code
@@ -22,7 +19,7 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v2
       with:
-        java-version: '11' # or your preferred version
+        java-version: '21' # Use Java version 21
 
     - name: Build with Gradle
-      run: ${{ matrix.os == 'ubuntu-latest' && 'chmod +x gradlew &&' }} ./gradlew build || gradlew.bat build
+      run: gradlew.bat build
