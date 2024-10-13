@@ -21,7 +21,7 @@ jobs:
         distribution: 'adopt'
         
     - name: Initialize Gradle Build
-      run: ./gradlew init  # Use 'gradlew.bat init' for Windows
+      run: ./gradlew.bat init  # Use 'gradlew.bat init' for Windows
 
     - name: Build with Gradle
       run: .\gradlew.bat build
