@@ -20,6 +20,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '21' # Use Java version 21
+        distribution: 'redhat' # Specify Red Hat distribution
 
     - name: Build with Gradle
       run: gradlew.bat build
