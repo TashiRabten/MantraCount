@@ -86,13 +86,12 @@ public class App {
                                 }
 
                                 // Check for mismatches: log only if all counts are not equal
-                                if (nameCount > 0 || fizCount > 0 || mantrasCount > 0) { // Ensure at least one is counted
-                                    if (nameCount != fizCount || nameCount != mantrasCount || fizCount != mantrasCount) {
+                                if ((nameCount > 0 || fizCount > 0 || mantrasCount > 0)&&(nameCount != fizCount || nameCount != mantrasCount || fizCount != mantrasCount)) {
                                         debugLines.add("Mismatch in line: \"" + line + "\" - " +
                                                 nameToCount + " count: " + nameCount +
                                                 ", Fiz count: " + fizCount +
                                                 ", Mantras count: " + mantrasCount);
-                                    }
+                                    
                                 }
                             }
                         } catch (DateTimeParseException e) {
