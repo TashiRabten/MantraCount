@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Codacy Grade
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4f9fc568d06943a9826ca6c746f6f414)](https://app.codacy.com?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
@@ -26,3 +27,23 @@ This project is designed to count instances of mantra submissions through WhatsA
    ```bash
    git clone https://github.com/TashiRabten/MantraCount.git
 
+=======
+## Getting Started
+
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+
+## Folder Structure
+
+The workspace contains two folders by default, where:
+
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
+
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+
+## Dependency Management
+
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+>>>>>>> 59fb560 (New Version)
