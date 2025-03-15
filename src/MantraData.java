@@ -15,6 +15,14 @@ public class MantraData {
     public MantraData() {
         this.debugLines = new ArrayList<>();
     }
+    
+    public void resetCounts() {
+        this.totalNameCount = 0;
+        this.totalFizCount = 0;
+        this.totalMantrasCount = 0;
+        this.totalFizNumbersSum = 0;
+        this.debugLines.clear();  // Reset the debug lines as well
+    }
 
     // Getters and Setters
     public LocalDate getTargetDate() {
